@@ -4,7 +4,7 @@
   "description": "A two day workshop on a complete intro to React",
   "main": "index.js",
   "scripts": {
-    "build": "webpack js/ClientApp.js public/bundle.js",
+    "build": "webpack",
     "watch": "webpack --watch",
     "test": "standard",
     "lint": "eslint --ignore-path .gitignore --cache ./",
@@ -28,6 +28,7 @@
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "babel-register": "^6.5.2",
+    "brackets-eslint": "2.1.4",
     "chai": "^3.5.0",
     "enzyme": "^2.0.0",
     "eslint": "^2.2.0",
@@ -51,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btholt/complete-intro-to-react.git"
+    "url": "git+https://github.com/hunterhawes13/reactweekend.git"
   },
   "keywords": [
     "react",
@@ -60,7 +61,7 @@
     "redux"
   ],
   "bugs": {
-    "url": "https://github.com/btholt/complete-intro-to-react/issues"
+    "url": "https://github.com/hunterhawes13/reactweekend.git/issues"
   },
-  "homepage": "https://github.com/btholt/complete-intro-to-react#readme"
+  "homepage": "https://github.com/hunterhawes13/reactweekend.git"
 }
